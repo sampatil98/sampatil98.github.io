@@ -6,10 +6,10 @@ hamburger.onclick= function(){
     navlist.classList.toggle("active");
 }
 
-// var typed = new Typed(".typing", {
-//     strings: ["Node.js Backend developer", "Full Stack-Web developer"],
-//     loop: true,
-//     typeSpeed: 50,
-//     backSpeed: 25,
-//     backDelay: 500,
-// });
+var typed = new Typed("#typing", {
+    strings: ["Node.js Backend developer", "Full Stack-Web developer"],
+    loop: true,
+    typeSpeed: 60,
+    backSpeed: 45,
+    backDelay: 400,
+});

@@ -49,8 +49,8 @@
         </div>
         <div id="name">
             <h1 id="hi-name"><img id="hi" src="./imges/giphy.gif" alt=""> Hi,</h1>
-            <h1 class="type-name">I'm Sambhaji Dhore</h1>
-            <h1 id="typing">Node.js Backend Developer</h1>
+            <h1 class="type-name">I'm <span> Sambhaji Dhore</span> </h1>
+            <h1 id="typing"></h1>
             <p>
                 A highly motivated Backend Developer with extensive Node.js, MongoDB, and Express.js knowledge.
                 Experienced in
@@ -62,7 +62,7 @@
             </p>
 
             <a href="./docs/Sambhaji-Dhore-Resume.pdf" download="Sambhaji-Dhore-Resume.pdf">
-                <button id="Resume_btn"> <i class="fa fa-folder" ></i> About me</button>
+                <button id="Resume_btn"> <i class="fa fa-folder"></i> About me</button>
             </a>
             <div id="social-links">
                 <a href="https://linkedin.com/in/sambhaji-dhore-69215b120" target="_blank">
@@ -122,9 +122,13 @@
             </div>
         </div>
     </div>
-<!-- --------------skills section ----------------- -->
+    <!-- --------------skills section ----------------- -->
     <div id="skills">
-        <h1 class="techSkill">Technical Skills</h1>
+        <div class="techSkill">
+            <img src="./imges/skill.png" alt="">
+            <h1 >Technical <span>Skills</span> </h1>
+        </div>
+        
         <div id="skill-card-div">
             <div class="skills-card">
                 <img class="skills-card-img" src="./imges/nodejs-1-logo.png" alt="">
@@ -196,30 +200,113 @@
         </div>
     </div>
 
-<!-- -----------------education------------------------------- -->
+    <!-- -----------------education------------------------------- -->
 
-<div id="education">
-    <div id="education_title">
-        <img src="./imges/education.png" alt="education">
-        <h1> My <span> Education</span></h1>
+    <div id="education">
+        <div id="education_title">
+            <img src="./imges/education.png" alt="education">
+            <h1> My <span> Education</span></h1>
+        </div>
+
+        <div class="education_card">
+            <h2 class="title">Full Stack Web development ( Full Time) </h2>
+            <p class="place"> Masai School | Bengluru</p>
+            <h3 class="duration">October 2022 - September 2023 | pursuing</h3>
+
+        </div>
+
+        <div class="education_card">
+            <h2 class="title">Diploma in Electronics & Telecommunication Technology</h2>
+            <p class="place"> Government Polytechnic | Pune</p>
+            <h3 class="duration">September 2019 - June 2022 | Completed</h3>
+
+        </div>
+
+    </div>
+    <!-- ----------------projects-------------------- -->
+    <div id="projects">
+        <div>
+            <img src="" alt="">
+            <p>My <span>Projects</span></p>
+        </div>
+        
+
+    </div>
+    <!-- ------------------------------------------------ -->
+    <!-- ------------------git stats------------------- -->
+    <div id="git-stats">
+        <div class="git-title">
+            <img src="./imges/merge.png" alt="logo">
+            <h1>My <span>Github Stats</span></h1>
+        </div>
+    </div>
+    <div id="github-container">
+        <div id="github-streak-stats">
+            <img src="https://github-readme-streak-stats.herokuapp.com?user=sampatil98&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&type=png"
+                alt="streak">
+        </div>
+        <div id="github-top-langs">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sampatil98&hide_progress=false&theme=dark&hide_border=true"
+                alt="top-langs">
+        </div>
+        <div id="github-stats-card">
+            <img src="https://github-readme-stats.vercel.app/api?username=sampatil98&show_icons=true&theme=dark&hide_border=true"
+                alt="card">
+        </div>
+    </div>
+    <!-- ------------------------------------------------- -->
+    <!-- ---------------get in touch --------------------- -->
+
+    <div id="get-in-touch">
+        <div class="git-title">
+            <img src="./imges/operator.png" alt="getintouch">
+            <h1>Get <span>In Touch</span></h1>
+        </div>
+        <div id="form_div">
+            <div id="getintouch-pic">
+                <img src="./imges/web-developer-do.png" alt="">
+            </div>
+            <div id="form-div">
+                <form action="" id="form">
+                    <div class="name-div">
+                        <img src="./imges/account.png" alt="">
+                        <input id="input-name"  type="text" placeholder="Enter Name">
+                    </div>
+                    <div class="name-div">
+                        <img src="./imges/phone.png" alt="">
+                        <input id="phone" type="number" placeholder="Enter Mobile No">
+                    </div>
+                    <div class="name-div">
+                        <img src="./imges/email.png" alt="">
+                        <input id="email" type="text" placeholder="Enter E-mail Id">
+                    </div>
+                    <div class="name-div">
+                        <img src="./imges/chat.png" alt="">
+                        <input id="msg" type="text" placeholder="Enter Messege">
+                    </div>
+                    
+                   <div id="btn-div">
+                    <button id="submit-btn">Submit</button>
+                   </div>
+                    
+                    
+                </form>
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="education_card">
-        <h2 class="title">Full Stack Web development ( Full Time) </h2>
-        <p class="place"> Masai School | Bengluru</p>
-        <h3 class="duration">October 2022 - September 2023 | pursuing</h3>
 
-    </div>
 
-    <div class="education_card">
-        <h2 class="title">Diploma in Electronics & Telecommunication Technology</h2>
-        <p class="place"> Government Polytechnic | Pune</p>
-        <h3 class="duration">September 2019 - June 2022 | Completed</h3>
 
-    </div>
 
-</div>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+        integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
 
 </body>
 <script src="./src/index.js"></script>

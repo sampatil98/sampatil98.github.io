@@ -50,10 +50,6 @@
     background-color: aliceblue;
 }
 
-/* .nav-list ul li a.active{
-    color: black;
-    background-color: aliceblue;
-} */
 @media screen and (max-width: 1320px) {
     #nav-menu {
         padding: 0 50px;
@@ -108,21 +104,13 @@
     border-radius:62% 38% 59% 41% / 61% 34% 66% 39%    ;
     border: 4px solid yellow;
     /* background-image: linear-gradient(90deg, #f5d83b 21%, rgba(138, 214, 0, 0.94) 100%);; */
-    background-color: rgb(15, 15, 14);
-    
-    
+    background-color: rgb(15, 15, 14); 
 }
 
 #name {
     
     width: 40%;
 }
-
-/* #name h1 {
-    font-size: 150%;
-    margin: 20px 0px;
-    color: aliceblue;
-} */
 #name p{
     color: aliceblue;
 }
@@ -139,37 +127,13 @@
 }
 
 .type-name {
-    overflow: hidden;
-    border-right: .10em solid orange;
-    color: white;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: typing 4.5s steps(40, end), blink-caret .75s step-end infinite;
+    color: rgb(255, 255, 255);
+}
+.type-name span{
+    color: rgb(140, 158, 255);
+    font-weight: 500;
 }
 
-@keyframes typing {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 100%
-    }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-
-    from,
-    to {
-        border-color: transparent
-    }
-
-    50% {
-        border-color: orange;
-    }
-}
 #hi{
     width: 50px;
 }
@@ -200,10 +164,20 @@
     margin-top: 30px;
 }
 .techSkill{
-    text-align: center;
+    width: fit-content;
+    margin: auto;
     color: white;
-    /* margin-top: 80px; */
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(61, 171, 214);
     margin-bottom: 50px;
+    display: flex;
+}
+.techSkill img{
+    width: 50px;
+    padding-right: 5px;
+}
+.techSkill span{
+    color: blueviolet;
 }
 .skills-card{
     background-color: white;
@@ -290,7 +264,7 @@ i{
 }
 #resume-button{
     color: white;
-    background-color: blue;
+    background-color: rgb(7, 168, 7);
     padding: 10px 15px;
     /* border: 0.5px solid white; */
     border: none;
@@ -334,21 +308,23 @@ i{
     width: 50px;
     padding-right: 10px;
 }
+#education_title span{
+    color: blueviolet;
+}
 #education {
     color: white;
-   
 }
 .education_card{
     width: 50%;
     margin: auto;
     padding: 15px 20px;
-    background-color: rgb(161, 244, 175);
+    background-color: rgb(218, 203, 179);
     margin-top: 30px;
     border-radius: 10px;
     
 }
 .education_card > *{
-    background-color: rgb(161, 244, 175);
+    background-color: rgb(218, 203, 179);
     margin-top: 10px;
 }
 .title{
@@ -361,7 +337,121 @@ i{
     color: green;
 }
 
+/* --------------git-stats--------------- */
+#git-stats{
+    width: 100%;
 
+}
+.git-title{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(61, 171, 214);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.git-title img{
+    width: 40px;
+    padding-right: 5px;
+}
+.git-title h1{
+    color:white ;
+}
+.git-title span{
+    color: blueviolet;
+}
+#github-container{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 50px;
+}
+#github-streak-stats img{
+    width: 100%;
+}
+#github-stats-card img{
+    width: 100%;
+}
+#github-top-langs img{
+    width: 100%;
+}
+
+/* ---------------get in touch------------------- */
+
+#form_div{
+    width: 70%;
+    background-color: aliceblue;
+    
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* background-image: url("../imges/form-bg.jpg");
+    background-size: cover; */
+}
+#getintouch-pic{
+    width: 50%;
+    background-color: aliceblue;
+}
+#getintouch-pic img{
+    background-color: aliceblue;
+    width: 100%;
+}
+#form{
+    background-color: aliceblue;
+}
+#form-div{
+    width: 50%;
+    
+    padding: 20px;
+    background-color: aliceblue;
+}
+.name-div{
+    background-color: aliceblue;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 20px 0px;
+   
+}
+.name-div img{
+    width: 35px;
+    background-color: aliceblue;
+    padding-right: 10px;
+}
+
+#submit-btn{
+    background-color: rgb(7, 168, 7);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+#btn-div{
+    background-color: aliceblue;
+    width: fit-content;
+    float: right;
+}
+#input-name,#msg,#email,#phone{
+    width: 100%;
+    
+    background-color: aliceblue;
+    font-size: 15px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(60, 183, 231);
+}
+#msg{
+    height: 100px;
+}
 
 
 
@@ -414,13 +504,14 @@ i{
     #profile-pic{
         width: 50%;
         margin: auto;
-        border: 1px solid red;
+        
     }
     #about-1{
         width: 100%;
     }
     #sub-details{
         grid-template-columns: repeat(1, 1fr);
+        width: 100%;
     }
     .education_card{
         width: 90%;
@@ -432,11 +523,24 @@ i{
     #skill-card-div{
         grid-template-columns: repeat(4, 1fr);
     }
+
 }
 
 @media screen and (max-width: 900px) {
     #skill-card-div{
         grid-template-columns: repeat(3, 1fr);
+    }
+    #github-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #github-streak-stats,#github-top-langs,#github-stats-card{
+        margin: auto;
+    }
+    #form_div{
+        display: block;
+    }
+    #form-div,#getintouch-pic{
+        width: 100%;
     }
 }
 
