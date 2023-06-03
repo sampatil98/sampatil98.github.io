@@ -118,11 +118,11 @@
     width: 40%;
 }
 
-#name h1 {
+/* #name h1 {
     font-size: 150%;
     margin: 20px 0px;
     color: aliceblue;
-}
+} */
 #name p{
     color: aliceblue;
 }
@@ -140,7 +140,8 @@
 
 .type-name {
     overflow: hidden;
-    border-right: .15em solid orange;
+    border-right: .10em solid orange;
+    color: white;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
@@ -176,11 +177,27 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    color: white;
+}
+#typing{
+    color: orange;
+    /* border: 1px solid red;
+    font-weight: 400; */
+}
+#social-links{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#social-links img{
+    width: 30px;
 }
 #skills{
     /* margin: 50px; */
     background-color: black;
     padding-bottom: 50px;
+    margin-top: 30px;
 }
 .techSkill{
     text-align: center;
@@ -227,6 +244,187 @@ i{
 #tools{
     width: 100%;
     background-color: black;
+}
+/*---------------------- about section------------------ */
+#about-heading{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(61, 171, 214);
+}
+#about{
+    
+    width: 70%;
+    color: white;
+    margin: auto;
+}
+#about img{
+    width: 50px;
+    padding-right: 5px;
+}
+#about span{
+    color: blueviolet;
+}
+#about h1{
+    color: white;
+}
+.about-section{
+    display: flex;
+    margin-top: 50px;
+}
+#profile-pic{
+    width: 40%;
+}
+#profile-pic img{
+    width: 80%;
+    
+}
+#about-1{
+    width: 60%;
+}
+#about-1 > *{
+    margin-top: 20px;
+}
+#resume-button{
+    color: white;
+    background-color: blue;
+    padding: 10px 15px;
+    /* border: 0.5px solid white; */
+    border: none;
+    cursor: pointer;
+    margin: 10px 0px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+#sub-details{
+    
+    width: 100%;
+    height: fit-content;
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 10px; */
+    line-height: 35px;
+    margin-top: 30px ;
+    padding-bottom: 20px;
+}
+#sub-details .sub{
+    color: orange;
+}
+
+/*------------------------------- about section ends here ----------------------- */
+
+
+/* ---------------- my education ------------------------- */
+
+#education_title{
+    color: white;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(61, 171, 214);
+}
+#education_title img{
+    width: 50px;
+    padding-right: 10px;
+}
+#education {
+    color: white;
+   
+}
+.education_card{
+    width: 50%;
+    margin: auto;
+    padding: 15px 20px;
+    background-color: rgb(161, 244, 175);
+    margin-top: 30px;
+    border-radius: 10px;
+    
+}
+.education_card > *{
+    background-color: rgb(161, 244, 175);
+    margin-top: 10px;
+}
+.title{
+    color: blue;
+}
+.place{
+    color: black;
+}
+.duration{
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .about-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    #profile-pic{
+        width: 50%;
+        margin: auto;
+        border: 1px solid red;
+    }
+    #about-1{
+        width: 100%;
+    }
+    #sub-details{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .education_card{
+        width: 90%;
+    }
 }
 
 

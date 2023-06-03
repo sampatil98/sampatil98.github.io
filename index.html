@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <nav id="nav-menu">
         <div class="logo">
             <img src="./imges/logo.jpg" alt="logo">
         </div>
         <div class="hamburger">
-           <div class="line"></div>
-           <div class="line"></div>
-           <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
         <div class="nav-list">
             <ul>
@@ -24,10 +26,10 @@
                     <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#Resume_btn">Skills</a>
+                    <a href="#resume-button">Skills</a>
                 </li>
                 <li>
                     <a href="">Projects</a>
@@ -43,96 +45,183 @@
     </nav>
     <div id="home">
         <div id="image">
-            <img  src="./imges/MYPIC.png" alt="picture" />
+            <img src="./imges/MYPIC.png" alt="picture" />
         </div>
         <div id="name">
             <h1 id="hi-name"><img id="hi" src="./imges/giphy.gif" alt=""> Hi,</h1>
             <h1 class="type-name">I'm Sambhaji Dhore</h1>
-            <h1 >Node.JS Backend Developer</h1>
+            <h1 id="typing">Node.js Backend Developer</h1>
             <p>
-                A highly motivated Backend Developer with extensive Node.js, MongoDB, and Express.js knowledge. Experienced in
-                developing, testing, and deploying backend applications. Highly organized and detail-oriented, able to quickly
-                understand complex requirements and work in a fast-paced environment. We are dedicated to providing excellent
+                A highly motivated Backend Developer with extensive Node.js, MongoDB, and Express.js knowledge.
+                Experienced in
+                developing, testing, and deploying backend applications. Highly organized and detail-oriented, able to
+                quickly
+                understand complex requirements and work in a fast-paced environment. We are dedicated to providing
+                excellent
                 customer service and meeting project deadlines.
             </p>
-            
-            <a href="./docs/Sambhaji-Dhore-Resume.pdf" download="Sambhaji-Dhore-Resume.pdf"><button  id="Resume_btn" > <i class="fa fa-download"></i> Resume</button></a>
+
+            <a href="./docs/Sambhaji-Dhore-Resume.pdf" download="Sambhaji-Dhore-Resume.pdf">
+                <button id="Resume_btn"> <i class="fa fa-folder" ></i> About me</button>
+            </a>
+            <div id="social-links">
+                <a href="https://linkedin.com/in/sambhaji-dhore-69215b120" target="_blank">
+                    <img src="./imges/linkden.png" alt="linkden">
+                </a>
+                <a href="https://github.com/sampatil98" target="_blank">
+                    <img src="./imges/github.png" alt="github">
+                </a>
+
+            </div>
         </div>
-  </div>
-  
-  <div id="skills">
-    <h1 class="techSkill">Technical Skills</h1>
-    <div id="skill-card-div">
-    <div class="skills-card">
-        <img class="skills-card-img" src="./imges/nodejs-1-logo.png" alt="">
-        <p class="skills-card-name">Node.js</p>
     </div>
-    <div class="skills-card">
-        <img class="skills-card-img" src="./imges/mongodb-.svg" alt="">
-        <p class="skills-card-name">MongoDB</p>
+    <!---------------------------- ABOUT SECTION------------------- -->
+    <div id="about">
+        <div id="about-heading">
+            <img src="./imges/user.png" alt="">
+            <h1>About <span>Me</span></h1>
+        </div>
+        <div class="about-section">
+            <div id="profile-pic">
+                <img src="./imges/MYPIC.png" alt="">
+            </div>
+            <div id="about-1">
+                <h1>I'm Sambhaji</h1>
+                <h4>Node.js Backend Developer</h4>
+                <p>Hello! As a web developer, I am passionate about creating engaging and functional web applications. I
+                    completed my web development training from Masai School, where I gained a strong foundation in
+                    various technologies. My skill set includes proficiency in HTML, CSS, JavaScript, MongoDB, Node.js,
+                    Express.js, AWS, and Socket.io. </p>
+
+                <p>Prior to pursuing web development, I completed my 12th grade education and obtained a diploma in
+                    Electronics and Telecommunication Technology. This background has equipped me with a solid
+                    understanding of the underlying principles and concepts of technology.</p>
+
+                <p>Throughout my journey as a web developer, I have honed my problem-solving skills and have a keen eye
+                    for detail. I thrive in collaborative environments and enjoy working with diverse teams to bring
+                    ideas to life. I am constantly seeking new challenges and opportunities to expand my knowledge and
+                    skills in the ever-evolving field of web development. </p>
+
+                <p>With a commitment to delivering high-quality projects, I strive to create user-friendly experiences
+                    that not only meet client requirements but also exceed their expectations. I am eager to contribute
+                    my expertise and passion for web development to help organizations achieve their goals and create
+                    meaningful digital experiences. </p>
+
+                <p>Thank you for taking the time to learn about me. I look forward to connecting and collaborating with
+                    like-minded individuals and organizations to create innovative web solutions.</p>
+                <div id="sub-details">
+                    <p><span class="sub">Mobile No</span> : +91 9834645130</p>
+                    <p><span class="sub">E-mail</span> : sambhajisd4@gmail.com</p>
+                    <p><span class="sub">Age</span> : 24</p>
+                    <p><span class="sub">Place</span> : Basmath, Maharashtra, India - 431512</p>
+
+                </div>
+                <a href="./docs/Sambhaji-Dhore-Resume.pdf" download="Sambhaji-Dhore-Resume.pdf">
+                    <button id="resume-button">Resume <i class="fa fa-download"></i></button>
+                </a>
+            </div>
+        </div>
     </div>
-    <div class="skills-card">
-        <img class="skills-card-img" src="./imges/express.png" alt="">
-        <p class="skills-card-name">Express.js</p>
+<!-- --------------skills section ----------------- -->
+    <div id="skills">
+        <h1 class="techSkill">Technical Skills</h1>
+        <div id="skill-card-div">
+            <div class="skills-card">
+                <img class="skills-card-img" src="./imges/nodejs-1-logo.png" alt="">
+                <p class="skills-card-name">Node.js</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./imges/mongodb-.svg" alt="">
+                <p class="skills-card-name">MongoDB</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./imges/express.png" alt="">
+                <p class="skills-card-name">Express.js</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./imges/Html.png" alt="">
+                <p class="skills-card-name">HTML</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./imges/Css.png" alt="">
+                <p class="skills-card-name">CSS</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./imges/js-removebg-preview.png" alt="">
+                <p class="skills-card-name">JavaScript</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./imges/socket_io.png" alt="">
+                <p class="skills-card-name">Socket.io</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./imges/mysql.png" alt="">
+                <p class="skills-card-name">Mysql</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./imges/redis.png" alt="">
+                <p class="skills-card-name">Redis</p>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./imges/Amazon_Web_Services-Logo.wine.png" alt="">
+                <p class="skills-card-name">AWS</p>
+            </div>
+        </div>
     </div>
-    <div class="skills-card">
-        <img class="skills-card-img" src="./imges/Html.png" alt="">
-        <p class="skills-card-name">HTML</p>
+
+    <div id="tools">
+        <h1 class="techSkill">Tools</h1>
+        <div id="skill-card-div">
+
+            <div>
+                <img class="skills-card-img" src="./imges/github.png" alt="">
+                <p class="skills-card-name">Github</p>
+            </div>
+            <div>
+                <img class="skills-card-img" src="./imges/git.png" alt="">
+                <p class="skills-card-name">Git</p>
+            </div>
+            <div>
+                <img class="skills-card-img" src="./imges/vscode.9bc6e588b5f2b867a8a4.png" alt="">
+                <p class="skills-card-name">Vscode</p>
+            </div>
+            <div>
+                <img class="skills-card-img" src="./imges/npm-logo.png" alt="">
+                <p class="skills-card-name">npm</p>
+            </div>
+            <div>
+                <img class="skills-card-img" src="./imges/Google_Chrome_icon_(February_2022).svg.png" alt="">
+                <p class="skills-card-name">Chrome</p>
+            </div>
+        </div>
     </div>
-    <div class="skills-card">
-        <img class="skills-card-img" src="./imges/Css.png" alt="">
-        <p class="skills-card-name">CSS</p>
+
+<!-- -----------------education------------------------------- -->
+
+<div id="education">
+    <div id="education_title">
+        <img src="./imges/education.png" alt="education">
+        <h1> My <span> Education</span></h1>
     </div>
-    <div class="skills-card">
-        <img class="skills-card-img" src="./imges/js-removebg-preview.png" alt="">
-        <p class="skills-card-name">JavaScript</p>
+
+    <div class="education_card">
+        <h2 class="title">Full Stack Web development ( Full Time) </h2>
+        <p class="place"> Masai School | Bengluru</p>
+        <h3 class="duration">October 2022 - September 2023 | pursuing</h3>
+
     </div>
-    <div class="skills-card">
-        <img class="skills-card-img" src="./imges/socket_io.png" alt="">
-        <p class="skills-card-name">Socket.io</p>
+
+    <div class="education_card">
+        <h2 class="title">Diploma in Electronics & Telecommunication Technology</h2>
+        <p class="place"> Government Polytechnic | Pune</p>
+        <h3 class="duration">September 2019 - June 2022 | Completed</h3>
+
     </div>
-    <div class="skills-card">
-        <img class="skills-card-img" src="./imges/mysql.png" alt="">
-        <p class="skills-card-name">Mysql</p>
-    </div>
-    <div class="skills-card">
-        <img class="skills-card-img" src="./imges/redis.png" alt="">
-        <p class="skills-card-name">Redis</p>
-    </div>
-    <div class="skills-card">
-        <img class="skills-card-img" src="./imges/Amazon_Web_Services-Logo.wine.png" alt="">
-        <p class="skills-card-name">AWS</p>
-    </div>
-    </div>
-   
-  </div>
-  <!-- <h1 class="techSkill">Tools</h1> -->
-  <div id="tools">
-  <h1 class="techSkill">Tools</h1>
-  <div id="skill-card-div">
-    
-    <div>
-        <img class="skills-card-img" src="./imges/github.png" alt="">
-        <p class="skills-card-name">Github</p>
-    </div>
-    <div>
-        <img class="skills-card-img" src="./imges/git.png" alt="">
-        <p class="skills-card-name">Git</p>
-    </div>
-    <div>
-        <img class="skills-card-img" src="./imges/vscode.9bc6e588b5f2b867a8a4.png" alt="">
-        <p class="skills-card-name">Vscode</p>
-    </div>
-    <div>
-        <img class="skills-card-img" src="./imges/npm-logo.png" alt="">
-        <p class="skills-card-name">npm</p>
-    </div>
-    <div>
-        <img class="skills-card-img" src="./imges/Google_Chrome_icon_(February_2022).svg.png" alt="">
-        <p class="skills-card-name">Chrome</p>
-    </div>
-    </div>
-  </div>
+
+</div>
+
+
 </body>
 <script src="./src/index.js"></script>
+
 </html>
