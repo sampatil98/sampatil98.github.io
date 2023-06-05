@@ -143,10 +143,13 @@
     align-items: center;
     color: white;
 }
+.typing-div{
+    height: 80px;
+}
 #typing{
     color: orange;
-    /* border: 1px solid red;
-    font-weight: 400; */
+     /* border: 1px solid red; */
+    font-weight: 400; 
 }
 #social-links{
     width: 80px;
@@ -250,7 +253,9 @@ i{
     margin-top: 50px;
 }
 #profile-pic{
-    width: 40%;
+    width: 30%;
+    padding: 20px;
+    margin-top: 30px;
 }
 #profile-pic img{
     width: 80%;
@@ -392,6 +397,7 @@ i{
     align-items: center;
     /* background-image: url("../imges/form-bg.jpg");
     background-size: cover; */
+    padding-bottom: 40px;
 }
 #getintouch-pic{
     width: 50%;
