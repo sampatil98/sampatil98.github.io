@@ -13,3 +13,5 @@ var typed = new Typed("#typing", {
     backSpeed: 45,
     backDelay: 400,
 });
+
+GitHubCalendar(".calendar", "sampatil98", { responsive: true });

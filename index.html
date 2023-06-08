@@ -8,6 +8,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 </head>
 
 <body>
@@ -95,9 +96,9 @@
                     various technologies. My skill set includes proficiency in HTML, CSS, JavaScript, MongoDB, Node.js,
                     Express.js, AWS, and Socket.io. </p>
 
-                <p>Prior to pursuing web development, I completed my 12th grade education and obtained a diploma in
+                <!-- <p>Prior to pursuing web development, I completed my 12th grade education and obtained a diploma in
                     Electronics and Telecommunication Technology. This background has equipped me with a solid
-                    understanding of the underlying principles and concepts of technology.</p>
+                    understanding of the underlying principles and concepts of technology.</p> -->
 
                 <p>Throughout my journey as a web developer, I have honed my problem-solving skills and have a keen eye
                     for detail. I thrive in collaborative environments and enjoy working with diverse teams to bring
@@ -128,9 +129,9 @@
     <div id="skills">
         <div class="techSkill">
             <img src="./imges/skill.png" alt="">
-            <h1 >Technical <span>Skills</span> </h1>
+            <h1>Technical <span>Skills</span> </h1>
         </div>
-        
+
         <div id="skill-card-div">
             <div class="skills-card">
                 <img class="skills-card-img" src="./imges/nodejs-1-logo.png" alt="">
@@ -227,11 +228,17 @@
     </div>
     <!-- ----------------projects-------------------- -->
     <div id="projects">
-        <div>
-            <img src="" alt="">
-            <p>My <span>Projects</span></p>
+        <div id="project-heading">
+            <img src="./imges/projects.png" alt="">
+            <h1>My <span>Projects</span></h1>
         </div>
-        
+        <div id="projects-section">
+            <h3>
+                This Section is Under construction...... <br>
+                i will update it as soon as possible
+            </h3>
+        </div>
+
 
     </div>
     <!-- ------------------------------------------------ -->
@@ -255,6 +262,10 @@
             <img src="https://github-readme-stats.vercel.app/api?username=sampatil98&show_icons=true&theme=dark&hide_border=true"
                 alt="card">
         </div>
+
+    </div>
+    <div class="calendar">
+        <!-- Loading the data just for you. -->
     </div>
     <!-- ------------------------------------------------- -->
     <!-- ---------------get in touch --------------------- -->
@@ -272,7 +283,7 @@
                 <form action="" id="form">
                     <div class="name-div">
                         <img src="./imges/account.png" alt="">
-                        <input id="input-name"  type="text" placeholder="Enter Name">
+                        <input id="input-name" type="text" placeholder="Enter Name">
                     </div>
                     <div class="name-div">
                         <img src="./imges/phone.png" alt="">
@@ -286,12 +297,12 @@
                         <img src="./imges/chat.png" alt="">
                         <input id="msg" type="text" placeholder="Enter Messege">
                     </div>
-                    
-                   <div id="btn-div">
-                    <button id="submit-btn">Submit</button>
-                   </div>
-                    
-                    
+
+                    <div id="btn-div">
+                        <button id="submit-btn">Submit</button>
+                    </div>
+
+
                 </form>
             </div>
 
@@ -299,7 +310,33 @@
 
     </div>
 
-
+<!-- -------------footer section---------------- -->
+<div id="contact" class="nav-link contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <div>
+                <h1 class="sub-title">Contact Me</h1>
+                <a id="contact-email"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp; abc@gmail.com</a>
+                <a id="contact-phone"><i class="fas fa-phone-square"></i>&nbsp;&nbsp; +91 987654321</a>
+                <a id="contact-linkedin" href="https://www.linkedin.com/in/ayush-kumar-shanu-537647200/" target="_blank"><i class="fab fa-linkedin"></i>&nbsp;&nbsp;in/ayush-kumar-shanu-537647200</a>
+                <a id="contact-github" href="https://github.com/Ayush-kr-shanu" target="_blank"><i class="fab fa-github"></i>&nbsp;&nbsp;github.com/Ayush-kr-shanu</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Created Ayush Kumar Shanu <i class="fas fa-heart"></i> </p>
+    </div>
+</div>
 
 
 
@@ -308,6 +345,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
         integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
     </script>
 
 </body>

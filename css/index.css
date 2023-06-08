@@ -183,10 +183,13 @@
     color: blueviolet;
 }
 .skills-card{
-    background-color: white;
+    /* background-color: rgb(155, 250, 180); */
+    border-radius: 15px;
+    /* border: 4px solid yellow; */
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
 }
 #skill-card-div{
-    width: 60%;
+    width: 50%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -259,6 +262,7 @@ i{
 }
 #profile-pic img{
     width: 80%;
+    border-radius: 20px;
     
 }
 #about-1{
@@ -384,6 +388,10 @@ i{
 #github-top-langs img{
     width: 100%;
 }
+.calendar{
+    width: 80%;
+    color: aliceblue;
+}
 
 /* ---------------get in touch------------------- */
 
@@ -459,12 +467,71 @@ i{
     height: 100px;
 }
 
+/* ---------------------projects section ------------------------------- */
+
+#projects{
+    color: white;
+    margin-top: 50px;
+}
+#project-heading{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    border-bottom: 1px solid rgb(60, 183, 231);
+    padding-bottom: 10px;
+
+}
+
+#project-heading span {
+    color: blueviolet;
+}
+#project-heading img{
+    width: 50px;
+    padding-right: 5px;
+}
+#projects-section{
+    width: fit-content;
+    padding: 30px;
+    border: 3px solid yellow;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
 
 
-
-
-
-
+/* .....................footer------------------ */
+#contact{
+    color: white;
+    background-color: rgb(25, 25, 66);
+}
+.contact {
+    background: #e5ecfb;
+    min-height: 60vh;
+  }
+  .contact .container {
+    max-width: 1050px;
+    width: 100%;
+    background: #fff;
+    border-radius: 1.5rem;
+    margin: 2rem 5rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  .contact .container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 2rem;
+  }
+  .contact .content .image-box {
+    max-width: 60%;
+    margin-left: 4rem;
+  }
+  .contact .content .image-box img {
+    width: 100%;
+    height: 40rem;
+    position: relative;
+  }
 
 
 
