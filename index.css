@@ -136,6 +136,9 @@ header.shadow {
     width: fit-content;
     
 }
+#typing1{
+    color: orange;
+}
 
 .home-text span {
     font-size: var(--medium-font);
