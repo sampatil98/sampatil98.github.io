@@ -13,10 +13,19 @@ body{
     box-sizing: border-box;
     width: 100%;
 }
-a{
+.info-box a{
     text-decoration: none;
     color: var(--text-color);
 }
+#contact-github{
+    text-decoration: none;
+    color: var(--text-color);
+}
+#contact-linkedin{
+    text-decoration: none;
+    color: var(--text-color);
+} 
+
 :root {
     --main-color: #033a80;
     --bg-color: black;
