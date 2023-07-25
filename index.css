@@ -147,6 +147,7 @@ header.shadow {
 }
 #typing1{
     color: orange;
+    margin-bottom: 20px;
 }
 
 .home-text span {
@@ -710,4 +711,10 @@ span {
         margin-left: 0px;
     }
 
+}
+
+.footer h1{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 35px;
 }
