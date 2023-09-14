@@ -9,27 +9,31 @@
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 }
-body{
+
+body {
     box-sizing: border-box;
     width: 100%;
 }
-.info-box a{
+
+.info-box a {
     text-decoration: none;
     color: var(--text-color);
 }
-#contact-github{
+
+#contact-github {
     text-decoration: none;
     color: var(--text-color);
 }
-#contact-linkedin{
+
+#contact-linkedin {
     text-decoration: none;
     color: var(--text-color);
-} 
+}
 
 :root {
     --main-color: #033a80;
     --bg-color: black;
-    --text-color:rgb(233, 238, 255);
+    --text-color: rgb(233, 238, 255);
     --hover: hsl(227, 77%, 40%);
     --big-font: 2.5rem;
     --medium-font: 1.8rem;
@@ -57,6 +61,8 @@ body {
 
 .heading {
     text-align: center;
+    padding: 15px;
+
 }
 
 .heading h2 {
@@ -128,24 +134,48 @@ header.shadow {
     cursor: pointer;
 }
 
+#start {
+
+    margin: 30px;
+
+    padding: 25px;
+
+}
+
 #home {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    margin-top: 90px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding: 30px 25px;
     gap: 1.5rem;
+
+
 }
+
+.home-img1,
+.home-text {
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .home-img1 img {
-   width: 60%; 
-   border-radius: 20px;
+    width: 40%;
+    border-radius: 20px;
 }
-#typing{
+
+#typing {
     color: orange;
     height: 50px;
     width: fit-content;
-    
+
 }
-#typing1{
+
+#typing1 {
     color: orange;
     margin-bottom: 20px;
 }
@@ -232,7 +262,10 @@ header.shadow {
     width: 100%;
     font-size: var(--p-font);
     font-weight: 400;
-    text-align: justify;
+    text-align: center;
+    margin-bottom: 15px;
+    /* text-align: justify; */
+
 }
 
 .information {
@@ -312,8 +345,12 @@ span {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, auto));
     justify-content: center;
-    gap: 0.5rem;
+
+    /* gap: 0.5rem; */
     margin-top: 2rem;
+    margin: auto;
+
+    /* padding: 5px; */
 }
 
 .skills-card {
@@ -325,7 +362,7 @@ span {
     align-items: center;
     text-align: center;
     border-radius: 0.5rem;
-    
+
     border-bottom: 5px solid rgb(253, 162, 15);
     box-shadow: 0 2px 7px rgba(148, 207, 206, 0.975);
 }
@@ -393,12 +430,14 @@ span {
     justify-content: center;
     margin: auto;
     gap: 3px;
-    
+
 }
-.project-tech-stack{
+
+.project-tech-stack {
     color: black;
 }
-.techstack-heading{
+
+.techstack-heading {
     color: orange;
     padding: 10px;
 }
@@ -480,25 +519,28 @@ span {
 .footer-social {
     color: rgb(18, 23, 178);
     font-size: 25px;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     margin-left: 130px;
     text-align: center;
     line-height: 40px;
     height: 40px;
 }
-.footer-social>div{
+
+.footer-social>div {
     display: flex;
-    justify-content:start;
+    justify-content: start;
     flex-direction: row;
     /* font-size: 10px; */
 }
-.footer-social>div>h5{
+
+.footer-social>div>h5 {
     /* display: flex;
     flex-direction: row; */
     font-size: 15px;
     padding-left: 5px;
 }
+
 .footer-bottom {
     padding: 20px;
     background-color: #a2a5ff;
@@ -584,7 +626,7 @@ span {
     }
 
     .home-text {
-        grid-column: 1/3;
+        grid-column: 1/2;
     }
 
     .home-img1 {
@@ -595,6 +637,16 @@ span {
 
     .about-container {
         grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .about-text p {
+        width: 100%;
+        font-size: var(--p-font);
+        font-weight: 400;
+
+
+
     }
 
     .home-img-main {
@@ -603,15 +655,18 @@ span {
     }
 
     .skills-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
+
     }
 
     .contact-form form {
         width: 300px;
     }
-    #typing{
+
+    #typing {
         margin: auto;
     }
+
     .contact-button {
         margin-left: 25%;
     }
@@ -619,6 +674,12 @@ span {
     #git-stat>div>img {
         width: 90%;
         background-color: black;
+    }
+    .information{
+        margin: auto;
+        margin-top: 15px;
+        width: fit-content;
+        
     }
 }
 
@@ -631,11 +692,13 @@ span {
     .footer-social {
         margin-left: 55px;
     }
-    *{
+
+    * {
         box-sizing: border-box;
         margin: 0px;
         padding: 0px;
     }
+
     header {
         position: fixed;
         width: 100%;
@@ -665,6 +728,13 @@ span {
         font-size: 1rem;
     }
 
+    .information{
+        margin: auto;
+        margin-top: 15px;
+        width: fit-content;
+        
+    }
+
     .contact-form form {
         width: 300px;
     }
@@ -680,12 +750,21 @@ span {
         width: 100%;
         margin: 0px;
         text-align: center;
-        
-        
+
+
     }
-    #typing{
+
+    .home-img1 img {
+        width: 50%;
+        margin: auto;
+
+
+    }
+
+    #typing {
         margin: auto;
     }
+
     .calendar div {
         width: 90%;
         margin: auto;
@@ -696,24 +775,35 @@ span {
         width: 80%;
         background-color: black;
     }
-    *{
+
+    * {
         box-sizing: border-box;
         margin: 0px;
         padding: 0px;
     }
-    body{
-        width: auto;
+
+    body {
+        /* width: auto; */
         box-sizing: border-box;
         margin: 0px;
         padding: 0px;
     }
+
     .footer-social {
         margin-left: 0px;
     }
 
+    .information{
+        margin: auto;
+        margin-top: 15px;
+        width: fit-content;
+        
+    }
+
+
 }
 
-.footer h1{
+.footer h1 {
     color: white;
     margin-bottom: 30px;
     font-size: 35px;
